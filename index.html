@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+
+
+    <div id="lead">
+        <div id="lead-content">
+            <h4>Hi My name is</h4>
+            <h2>Manoj Kumar Reddy Sodum</h2>
+            <h2>Graduate Computer Science Student</h2>
+            <a href="Manojkumar_resume.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Hi! Thanks for visiting my Portfolio. I'm Manoj Kumar Reddy Sodum a graduate student studying
+                        computer science at the St Cloud State Univeristy.<br>I completed my Bachelor's at Visveshwaraya Technological University with
+                        Academic excellence award. Currently pursuing Master's to refurbish my skills and knowledge in
+                        my
+                        expertise
+                        domain areas like software model creation, artificial intelligence, and
+                        machine learning.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="March 2022 – June 2022">
+                <h3>Capgemini</h3>
+                <h4>Software Engineer Intern</h4>
+                <p>
+                    Developed and maintained ETL processes with Informatica PowerCenter, ensuring data quality and integrity through validation, SQL queries, performance optimization, 
+                    and addressing source code issues to enhance system reliability.
+                </p>
+            </div>
+
+            <div data-date="July 2022 - June 2023">
+                <h3>Clarivate</h3>
+                <h4>Associate Software Engineer</h4>
+                <p>
+                    Developed a scalable web application with Angular and Spring Boot, creating RESTful APIs, optimizing database queries by 25%, and adhering to MVC architecture for improved performance and reliability.
+                    Enhanced system efficiency by developing secure shell scripts for Linux operations and AWS integration, managing EC2 instances, using RDS for database hosting, and monitoring logs with AWS CloudWatch
+                </p>
+            </div>
+
+            <div data-date="January 2024 – Present">
+                <h3>St Cloud State University</h3>
+                <h4>Graduate Teaching Assistant</h4>
+                <p>
+                    Designed and conducted labs for CSCI 200, provided grading and feedback, and tutored undergraduates in data structures, algorithms, operating systems, and 
+                programming languages, enhancing their understanding and research relevance.
+Assisted students with JavaScript debugging and ensured the quality and accuracy of software components developed for research projects.
+                </p>
+            </div>
+        </div>
+    </div> 
+            <!-- End #experience -->
+
+            <div id="education">
+                <h2 class="heading">Education</h2>
+                <div class="education-block">
+                    <h3>St Cloud State University</h3>
+                    <span class="education-date">Aug 2023 - Aug 2025</span>
+                    <h4>Masters of Science in Computer Science</h4>
+                    <ul>
+                        <li>
+                            CGPA: 4, currently pursuing the third semester as a graduate computer science student.
+                        </li>
+                        <li>
+                            Computer Science Club member.
+                        </li>
+                        <li>
+                            completed machine learning specialization,NLP,Advance Operating Systems,Platform based development  .
+                        </li>
+                    </ul>
+                </div>
+                <!-- End .education-block -->
+
+                <div class="education-block">
+                    <h3>Visveshwaraya Technological University, Belagam</h3>
+                    <span class="education-date">Jul 2018 - Jul 2022</span>
+                    <h4>Bachelor of Science in Computer Science</h4>
+                    <ul>
+                        <li>
+                            CGPA: 8.2
+                        </li>
+                        <li>
+                          Participated in Hackathons and Lead the team and won the best project of the 2022 academic year.
+                        </li>
+                    </ul>
+                </div>
+                <!-- End .education-block -->
+            </div>
+            <div id="projects" class="background-alt">
+                <h2 class="heading">Projects</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class=" project shadow-large">
+                            <div class="project-image">
+                                <img src="images/project.jpg" />
+                            </div>
+                            <div class="project-info">
+                                <h3>Hate Speech Detection in English and German</h3>
+                                <p>
+                                    Developed a multilingual hate speech detection system utilizing mbret and Recurrent Neural Networks (RNN) models, achieving F1 scores of 0.91 and 
+                                    0.85 for English and German respectively.
+                                    Focused on detecting hate speech in social media data from X (formerly Twitter), 
+                                    overcoming challenges in sarcasm detection and multilingual text preprocessing.</bold>
+                                </p>
+                                <a href="https://github.com/Sodumreddy/Hate-Speech-Detection-in-English-and-German">View Project</a>
+                            </div>
+                        </div>
+                        <div class=" project shadow-large">
+                            <div class="project-image">
+                                <img src="images/project.jpg" />
+                            </div>
+                            <div class="project-info">
+                                <h3>Food-Application</h3>
+                                <p>
+                                    Developed a Food-Application with separate portals for managers and staff to streamline food ordering, menu
+                                    creation, and order management within the company, enhancing overall efficiency.
+                                    Enhanced the order confirmation procedure, empowering staff to quickly email customers with order details,
+                                    including the order number and bill
+                                </p>
+                                <a href="https://github.com/Sodumreddy/fooApp">View Project</a>
+                            </div>          
+                        </div>
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/project.jpg" />
+                            </div>
+                          
+                            <div class="project-info">
+                                <h3>Career Guidance System using ML</h3>
+                                <p>
+                                Created a student career prediction system for educational institutions, using Naïve Bayes Algorithm to match students' skills with suitable career paths.
+                                Enabled administrators to input student data, including academic results and skills, to classify students into career categories such as IT, Business, Teaching, Banking, and Core.
+                                </p>
+                                <!-- <a href="https://project2phishing.sites.umassd.edu/2023/01/03/phishing-detection/">View -->
+                                    <!-- Project</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End #projects -->
+
+            <div id="skills">
+                <h2 class="heading">Skills</h2>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Machine Learning</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Data cleaning/wrangling</li>
+                    <li>C</li>
+                    <li>Data structures and Algorithms</li>
+                    <li>SQL</li>
+                    <li>Deep learning</li>
+                    <li>Natural Language Processing</li>
+                    <li>Neural Networks</li>
+                    <li>Sentiment Analysis</li>
+                </ul>
+            </div>
+            <!-- End #skills -->
+
+            <div id="contact">
+                <h2>Get in Touch</h2>
+                <div id="contact-form">
+                    <form method="POST" action="https://formspree.io/f/xqkokayj">
+                        <input type="hidden" name="_subject" value="Contact request from personal website" />
+                        <input type="email" name="_replyto" placeholder="Your email" required>
+                        <textarea name="message" placeholder="Your message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <!-- End #contact-form -->
+            </div>
+            <!-- End #contact -->
+
+            <footer>
+                <div class="container">
+                    
+                        </div> 
+                    <div class="col-sm-2 top">
+                        <span id="to-top">
+                            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="col-sm-5 social">
+                        <ul>
+                            <li>
+                                <a href="https://github.com/Sodumreddy" target="_blank"><i class="fa fa-github"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/sodummanojkumarreddy/" target="_blank"><i
+                                        class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+
+                                <a href="mailto: manojkumar.sodum@go.stcloudstate.edu" target="_blank"><i class="fa fa-envelope"
+                                        aria-hidden="true"></i></a>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/scripts.min.js"></script>
+</body>
+</html>
