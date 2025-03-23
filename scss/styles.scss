@@ -85,8 +85,8 @@ $text: #74808a;
 */
 
 body {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    // font-family: 'Lato', sans-serif;
+    font-size: 30px;
 
     &.active {
         overflow: hidden;
@@ -629,17 +629,21 @@ footer {
     ----- 8. Project Styles -----
     -------------------------------
 */
-
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
-    text-align: center;
 
     h2 {
         color: $heading;
         margin-bottom: 50px;
+        text-align: center; // Centers the heading
+    }
+
+    .content { 
+        text-align: left; // Aligns the content to the left
     }
 }
+
 
 .project {
     position: relative;
@@ -655,7 +659,7 @@ footer {
 }
 
 .project-info {
-    position: absolute;
+    position: left;
     top: 50%;
     transform: translateY(-50%);
     margin-left: 300px;
@@ -671,10 +675,9 @@ footer {
     p {
         color: $text;
         margin: 0 0 15px 0;
-        font-size: 0.9em;
+        // font-size: 1.2em;
     }
 }
-
 .no-image {
     .project-info {
         position: relative;
@@ -683,17 +686,9 @@ footer {
         transform: none;
     }
 }
-
 #more-projects {
     display: none;
 }
-
-/*
-    -------------------------------
-    ----- 9. Skills Styles -----
-    -------------------------------
-*/
-
 #skills {
     padding: 50px 15px;
     text-align: center;
